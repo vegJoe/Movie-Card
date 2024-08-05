@@ -1,0 +1,29 @@
+.form {
+    border: solid;
+    border-color: black;
+    justify-content: space-around;
+    padding-left: 5px;
+    width: 15rem;
+    height: 20rem;
+    flex-direction: column;
+    display: flex;
+}
+
+label {
+    flex-direction: column;
+    display: flex;
+}
+
+.form .buttons {
+    flex-direction: row;
+    display: flex;
+}
+
+.form .buttons .reset {
+    margin-right: 5px;
+    display: flex;
+}
+
+#description {
+    height: 5rem;
+}

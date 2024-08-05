@@ -1,0 +1,55 @@
+li {
+    list-style-type: none;
+}
+
+.main {
+    margin-top: 10px;
+    border: solid;
+    width: 20rem;
+}
+
+.movieTitle {
+    flex-direction: row;
+    font-size: 2rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.movieTitle .pTitle {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.main .genre {
+    justify-content: end;
+    padding-right: 15px;
+    display: flex;
+}
+
+
+.movieTitle .pRating {
+    font-size: 1.2rem;
+    padding-left: 13rem;
+    margin-top: 25px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+}
+
+.genre {
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.description {
+    flex-direction: row;
+    margin-top: 1rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+    display: flex;
+}
